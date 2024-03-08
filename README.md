@@ -1,4 +1,4 @@
 # Vino-PWA
 cd Vino-PWA
-  yarn
-  yarn dev
+yarn
+yarn dev
