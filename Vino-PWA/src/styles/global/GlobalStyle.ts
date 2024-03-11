@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import reset from 'styled-reset';
 
-const globalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     ${reset};
     @font-face {
         font-family: 'Pretendard';
@@ -37,12 +37,12 @@ const globalStyle = createGlobalStyle`
       }
     
       #root {
-        min-width: 640px;
-        min-height : 360px;
+        min-width: 360px;
+        min-height : 640px;
 
-        max-width : 812px;
-        max-height : 375px;
+        max-width : 375px;
+        max-height : 812px;
       }
     `;
 
-export default globalStyle;
+export default GlobalStyle;
