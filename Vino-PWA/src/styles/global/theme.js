@@ -109,4 +109,4 @@ const theme = {
     color,
   };
 
-export default {theme};
+export default theme;
