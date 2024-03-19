@@ -4,7 +4,7 @@ import theme from "../global/theme";
 const HeaderBar = styled.div`
     width : 100%;
     height : 60px;
-    background-color : ${theme.theme.color.gray500};
+    background-color : ${theme.color.gray500};
 
     display : flex;
     flex-direction : column;
@@ -28,9 +28,9 @@ const HeaderBar = styled.div`
             & div.userWrap {
                 & button.loginBtn {
                     height : 23px;
-                    background-color : ${theme.theme.color.green400};
-                    color : ${theme.theme.color.gray500};
-                    ${theme.theme.typography.Caption4};
+                    background-color : ${theme.color.green400};
+                    color : ${theme.color.gray500};
+                    ${theme.typography.Caption4};
                     border : none;
                     border-radius : 10px;
                 }
@@ -39,6 +39,7 @@ const HeaderBar = styled.div`
                     gap : 5px;
                 }
             }
+            
         }
     }
 `;
